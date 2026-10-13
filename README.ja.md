@@ -73,6 +73,10 @@ GameFrameX の YooAsset Google Play ミニゲームランタイムコンポー�
    ```
 3. Unity の **Package Manager** で **Git URL** を使用して追加：`https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
 4. リポジトリを Unity プロジェクトの `Packages` ディレクトリにクローンしてください。自動的に読み込まれます。
+### アップグレード注意事項（1.1.0）
+
+1.1.0 では、メインパッケージの `WebPlayModeFileSystemProviderRegistry` に参加し、Provider/Registrar を追加しました。同時に `com.gameframex.unity.tuyoogame.yooasset` を ≥ 3.1.0 にアップグレードしてください。
+
 ## ドキュメントとリソース
 
 - [公式ドキュメント](https://gameframex.doc.alianblank.com)
@@ -90,7 +94,11 @@ GameFrameX の YooAsset Google Play ミニゲームランタイムコンポー�
 
 | パッケージ | 説明 |
 |----------|------|
-| `com.gameframex.unity.tuyoogame.yooasset` | 1.0.0 |
+| `com.gameframex.unity.tuyoogame.yooasset` | ≥ 3.1.0 |
+
+## 登録即ディスパッチ機構
+
+本パッケージの Registrar は、自身の `IWebPlayModeFileSystemProvider`（GooglePlay の Priority は 3）をメインパッケージの `WebPlayModeFileSystemProviderRegistry` に自己登録するため、インストールするだけでディスパッチが有効になり、プラットフォーム分岐は不要です。アセット抽象レイヤーは最初の Web プレイモード初期化時に Priority で排他的に解決し（Priority が最も高いものが優先、同値の場合は先に登録されたもの）、1 回の初期化で選択されるプラットフォームは 1 つだけです。登録は `BeforeSceneLoad` ステージで行われ、最初の Web 初期化より早く実行されます。Provider は `UNITY_ANDROID && GOOGLE_PLAY` 条件コンパイルでのみ有効です。
 ## ライセンス
 
 詳しくは [LICENSE.md](LICENSE.md) をご参照ください。

@@ -73,6 +73,10 @@ GameFrameX의 YooAsset Google Play 미니게임 런타임 컴포넌트입니다.
    ```
 3. Unity의 **Package Manager**에서 **Git URL**을 사용하여 추가: `https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
 4. 리포지토리를 Unity 프로젝트의 `Packages` 디렉토리에 클론하세요. 자동으로 로드됩니다.
+### 업그레이드 안내 (1.1.0)
+
+1.1.0에서는 메인 패키지의 `WebPlayModeFileSystemProviderRegistry`에 참여하고 Provider/Registrar를 추가했습니다. 동시에 `com.gameframex.unity.tuyoogame.yooasset`를 ≥ 3.1.0으로 업그레이드하세요.
+
 ## 문서 및 자료
 
 - [공식 문서](https://gameframex.doc.alianblank.com)
@@ -90,7 +94,11 @@ GameFrameX의 YooAsset Google Play 미니게임 런타임 컴포넌트입니다.
 
 | 패키지 | 설명 |
 |--------|------|
-| `com.gameframex.unity.tuyoogame.yooasset` | 1.0.0 |
+| `com.gameframex.unity.tuyoogame.yooasset` | ≥ 3.1.0 |
+
+## 등록 즉 디스패치 방식
+
+이 패키지의 Registrar는 자체 `IWebPlayModeFileSystemProvider`(GooglePlay의 Priority 3)를 메인 패키지의 `WebPlayModeFileSystemProviderRegistry`에 자동 등록하므로, 설치만으로 디스패치가 활성화되며 플랫폼 분기가 필요 없습니다. 에셋 추상화 계층은 첫 Web 플레이 모드 초기화 시 Priority로 상호 배타적으로 해결하며(Priority가 가장 높은 것이 우선, 동일하면 먼저 등록된 것), 한 번의 초기화에서 하나의 플랫폼만 선택됩니다. 등록은 `BeforeSceneLoad` 단계에서 수행되어 첫 Web 초기화보다 이르며, Provider는 `UNITY_ANDROID && GOOGLE_PLAY` 조건 컴파일에서만 활성화됩니다.
 ## 라이선스
 
 자세한 내용은 [LICENSE.md](LICENSE.md) 파일을 참조하세요.

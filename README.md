@@ -73,6 +73,10 @@ Choose one of the following methods:
    ```
 3. Use **Package Manager** in Unity with **Git URL**: `https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
 4. Clone the repository into your Unity project's `Packages` directory. It will be loaded automatically.
+### Upgrade Notes (1.1.0)
+
+In 1.1.0 the package joins the main YooAsset package's `WebPlayModeFileSystemProviderRegistry` and adds a Provider/Registrar pair. Upgrade `com.gameframex.unity.tuyoogame.yooasset` to ≥ 3.1.0 at the same time.
+
 ## Documentation & Resources
 
 - [Official Documentation](https://gameframex.doc.alianblank.com)
@@ -90,7 +94,11 @@ See [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooa
 
 | Package | Description |
 |---------|-------------|
-| `com.gameframex.unity.tuyoogame.yooasset` | 1.0.0 |
+| `com.gameframex.unity.tuyoogame.yooasset` | ≥ 3.1.0 |
+
+## Register-and-Dispatch Mechanism
+
+The package's Registrar self-registers its `IWebPlayModeFileSystemProvider` (Priority 3) into the main YooAsset package's `WebPlayModeFileSystemProviderRegistry`, so installation alone enables dispatch with no platform branching. The asset abstraction layer resolves providers by Priority during the first Web play mode initialization — the highest Priority wins (first registered wins on ties), so only one platform is selected per initialization. Registration runs at the `BeforeSceneLoad` stage, earlier than the first Web initialization; the provider is compiled only under `UNITY_ANDROID && GOOGLE_PLAY`.
 ## License
 
 See [LICENSE.md](LICENSE.md) for license information.

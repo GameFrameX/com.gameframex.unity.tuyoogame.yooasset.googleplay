@@ -73,6 +73,10 @@ GameFrameX 的 YooAsset Google Play 小遊戲運行時組件，面向 Unity WebG
    ```
 3. 在 Unity 的 `Package Manager` 中使用 `Git URL` 的方式添加庫，地址為：`https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
 4. 直接下載倉庫放置到 Unity 專案的 `Packages` 目錄下，會自動載入識別。
+### 升級說明（1.1.0）
+
+1.1.0 版本接入主包的 `WebPlayModeFileSystemProviderRegistry` 註冊表，新增 Provider/Registrar。請同時將 `com.gameframex.unity.tuyoogame.yooasset` 升級至 ≥ 3.1.0。
+
 ## 文檔與資源
 
 - [官方文檔](https://gameframex.doc.alianblank.com)
@@ -90,7 +94,11 @@ GameFrameX 的 YooAsset Google Play 小遊戲運行時組件，面向 Unity WebG
 
 | 套件 | 說明 |
 |------|------|
-| `com.gameframex.unity.tuyoogame.yooasset` | 1.0.0 |
+| `com.gameframex.unity.tuyoogame.yooasset` | ≥ 3.1.0 |
+
+## 註冊即分發機制
+
+本包的 Registrar 會將自身的 `IWebPlayModeFileSystemProvider`（GooglePlay Priority 為 3）自註冊到主包的 `WebPlayModeFileSystemProviderRegistry`，安裝即生效、無需任何平台分支。資源抽象層在首次 Web 模式初始化時按 Priority 互斥解析（Priority 最高者優先，同優先級取註冊序首個），一次初始化只會選中一個平台。註冊發生在 `BeforeSceneLoad` 階段，早於首次 Web 初始化；Provider 僅在 `UNITY_ANDROID && GOOGLE_PLAY` 條件編譯下生效。
 ## 開源協議
 
 詳見 [LICENSE.md](LICENSE.md) 檔案。

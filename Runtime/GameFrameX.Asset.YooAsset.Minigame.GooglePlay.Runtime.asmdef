@@ -2,7 +2,8 @@
   "name": "GameFrameX.Asset.YooAsset.Minigame.GooglePlay.Runtime",
   "rootNamespace": "GameFrameX.Asset.YooAsset.Minigame.GooglePlay.Runtime",
   "references": [
-    "YooAsset"
+    "YooAsset",
+    "YooAsset.Runtime"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
