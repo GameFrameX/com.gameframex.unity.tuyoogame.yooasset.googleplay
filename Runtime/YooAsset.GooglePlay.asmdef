@@ -1,6 +1,6 @@
 {
-  "name": "GameFrameX.Asset.YooAsset.Minigame.GooglePlay.Runtime",
-  "rootNamespace": "GameFrameX.Asset.YooAsset.Minigame.GooglePlay.Runtime",
+  "name": "YooAsset.GooglePlay",
+  "rootNamespace": "YooAsset.GooglePlay",
   "references": [
     "YooAsset",
     "YooAsset.Runtime"

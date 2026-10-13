@@ -2,10 +2,10 @@
 
 <img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="Game Frame X Logo" width="160" />
 
-# GameFrameX YooAsset MiniGame GooglePlay
+# GameFrameX YooAsset GooglePlay
 
-[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/blob/main/LICENSE.md)
-[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases)
+[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/blob/main/LICENSE.md)
+[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases)
 [![Unity Version](https://img.shields.io/badge/Unity-2019.4-black?logo=unity)](https://unity.com/)
 [![Documentation](https://img.shields.io/badge/Documentation-docs-blue)](https://gameframex.doc.alianblank.com)
 
@@ -23,7 +23,7 @@ All-in-One Solution for Indie Game Development · Empowering Indie Developers' D
 
 ## Project Overview
 
-GameFrameX YooAsset MiniGame GooglePlay runtime component for Unity WebGL platform. Provides adapter implementation for Google Play Mini Game file system and asset bundle loading.
+GameFrameX YooAsset GooglePlay runtime component for Unity WebGL platform. Provides adapter implementation for Google Play Mini Game file system and asset bundle loading.
 
 ## Features
 
@@ -58,7 +58,7 @@ Choose one of the following methods:
        }
      ],
      "dependencies": {
-       "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "1.0.0"
+       "com.gameframex.unity.tuyoogame.yooasset.googleplay": "1.0.0"
      }
    }
    ```
@@ -68,10 +68,10 @@ Choose one of the following methods:
 2. Add to `manifest.json` dependencies:
    ```json
    {
-      "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git"
+      "com.gameframex.unity.tuyoogame.yooasset.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git"
    }
    ```
-3. Use **Package Manager** in Unity with **Git URL**: `https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
+3. Use **Package Manager** in Unity with **Git URL**: `https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git`
 4. Clone the repository into your Unity project's `Packages` directory. It will be loaded automatically.
 ### Upgrade Notes (1.1.0)
 
@@ -87,7 +87,7 @@ In 1.1.0 the package joins the main YooAsset package's `WebPlayModeFileSystemPro
 
 ## Changelog
 
-See [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases) for changelog.
+See [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases) for changelog.
 
 
 ## Dependencies

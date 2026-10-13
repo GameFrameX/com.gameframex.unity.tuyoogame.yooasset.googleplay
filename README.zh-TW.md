@@ -2,10 +2,10 @@
 
 <img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="Game Frame X Logo" width="160" />
 
-# GameFrameX YooAsset MiniGame GooglePlay
+# GameFrameX YooAsset GooglePlay
 
-[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/blob/main/LICENSE.md)
-[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases)
+[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/blob/main/LICENSE.md)
+[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases)
 [![Unity Version](https://img.shields.io/badge/Unity-2019.4-black?logo=unity)](https://unity.com/)
 [![Documentation](https://img.shields.io/badge/Documentation-docs-blue)](https://gameframex.doc.alianblank.com)
 
@@ -58,7 +58,7 @@ GameFrameX 的 YooAsset Google Play 小遊戲運行時組件，面向 Unity WebG
        }
      ],
      "dependencies": {
-       "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "1.0.0"
+       "com.gameframex.unity.tuyoogame.yooasset.googleplay": "1.0.0"
      }
    }
    ```
@@ -68,10 +68,10 @@ GameFrameX 的 YooAsset Google Play 小遊戲運行時組件，面向 Unity WebG
 2. 直接在 `manifest.json` 的 `dependencies` 節點下添加以下內容：
    ```json
    {
-      "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git"
+      "com.gameframex.unity.tuyoogame.yooasset.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git"
    }
    ```
-3. 在 Unity 的 `Package Manager` 中使用 `Git URL` 的方式添加庫，地址為：`https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
+3. 在 Unity 的 `Package Manager` 中使用 `Git URL` 的方式添加庫，地址為：`https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git`
 4. 直接下載倉庫放置到 Unity 專案的 `Packages` 目錄下，會自動載入識別。
 ### 升級說明（1.1.0）
 
@@ -87,7 +87,7 @@ GameFrameX 的 YooAsset Google Play 小遊戲運行時組件，面向 Unity WebG
 
 ## 更新日誌
 
-查看 [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases) 了解更新日誌。
+查看 [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases) 了解更新日誌。
 
 
 ## 依賴

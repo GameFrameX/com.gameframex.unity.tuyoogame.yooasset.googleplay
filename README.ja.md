@@ -2,10 +2,10 @@
 
 <img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="Game Frame X Logo" width="160" />
 
-# GameFrameX YooAsset MiniGame GooglePlay
+# GameFrameX YooAsset GooglePlay
 
-[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/blob/main/LICENSE.md)
-[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases)
+[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/blob/main/LICENSE.md)
+[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases)
 [![Unity Version](https://img.shields.io/badge/Unity-2019.4-black?logo=unity)](https://unity.com/)
 [![Documentation](https://img.shields.io/badge/Documentation-docs-blue)](https://gameframex.doc.alianblank.com)
 
@@ -58,7 +58,7 @@ GameFrameX の YooAsset Google Play ミニゲームランタイムコンポー�
        }
      ],
      "dependencies": {
-       "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "1.0.0"
+       "com.gameframex.unity.tuyoogame.yooasset.googleplay": "1.0.0"
      }
    }
    ```
@@ -68,10 +68,10 @@ GameFrameX の YooAsset Google Play ミニゲームランタイムコンポー�
 2. `manifest.json` の `dependencies` に直接追加：
    ```json
    {
-      "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git"
+      "com.gameframex.unity.tuyoogame.yooasset.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git"
    }
    ```
-3. Unity の **Package Manager** で **Git URL** を使用して追加：`https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
+3. Unity の **Package Manager** で **Git URL** を使用して追加：`https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git`
 4. リポジトリを Unity プロジェクトの `Packages` ディレクトリにクローンしてください。自動的に読み込まれます。
 ### アップグレード注意事項（1.1.0）
 
@@ -87,7 +87,7 @@ GameFrameX の YooAsset Google Play ミニゲームランタイムコンポー�
 
 ## 変更履歴
 
-変更履歴は [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases) をご覧ください。
+変更履歴は [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases) をご覧ください。
 
 
 ## 依存関係

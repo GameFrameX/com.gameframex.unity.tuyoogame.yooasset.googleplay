@@ -2,10 +2,10 @@
 
 <img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="Game Frame X Logo" width="160" />
 
-# GameFrameX YooAsset MiniGame GooglePlay
+# GameFrameX YooAsset GooglePlay
 
-[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/blob/main/LICENSE.md)
-[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases)
+[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/blob/main/LICENSE.md)
+[![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay)](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases)
 [![Unity Version](https://img.shields.io/badge/Unity-2019.4-black?logo=unity)](https://unity.com/)
 [![Documentation](https://img.shields.io/badge/Documentation-docs-blue)](https://gameframex.doc.alianblank.com)
 
@@ -58,7 +58,7 @@ GameFrameX의 YooAsset Google Play 미니게임 런타임 컴포넌트입니다.
        }
      ],
      "dependencies": {
-       "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "1.0.0"
+       "com.gameframex.unity.tuyoogame.yooasset.googleplay": "1.0.0"
      }
    }
    ```
@@ -68,10 +68,10 @@ GameFrameX의 YooAsset Google Play 미니게임 런타임 컴포넌트입니다.
 2. `manifest.json`의 `dependencies`에 직접 추가:
    ```json
    {
-      "com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git"
+      "com.gameframex.unity.tuyoogame.yooasset.googleplay": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git"
    }
    ```
-3. Unity의 **Package Manager**에서 **Git URL**을 사용하여 추가: `https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay.git`
+3. Unity의 **Package Manager**에서 **Git URL**을 사용하여 추가: `https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay.git`
 4. 리포지토리를 Unity 프로젝트의 `Packages` 디렉토리에 클론하세요. 자동으로 로드됩니다.
 ### 업그레이드 안내 (1.1.0)
 
@@ -87,7 +87,7 @@ GameFrameX의 YooAsset Google Play 미니게임 런타임 컴포넌트입니다.
 
 ## 변경 로그
 
-변경 로그는 [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/releases)에서 확인하세요.
+변경 로그는 [Releases](https://github.com/GameFrameX/com.gameframex.unity.tuyoogame.yooasset.googleplay/releases)에서 확인하세요.
 
 
 ## 의존성
