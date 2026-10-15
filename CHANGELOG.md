@@ -1,3 +1,22 @@
+# [2.0.0](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/compare/1.0.2...2.0.0) (2026-10-15)
+
+
+### Bug Fixes
+
+* **package:** 对齐 yooasset 3.1.0 依赖并修正品牌命名 ([ca2113c](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/commit/ca2113cca336eb48cc0d58cb9df7cb631cb195e7))
+
+
+### Features
+
+* **package:** 包名截断 minigame 段并对齐家族命名 ([8f31547](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/commit/8f31547ca5a6368f6bb4640f7187c2e2880637c0))
+* **provider:** 接入主包小游戏注册表 ([e87bf46](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/commit/e87bf46a95cc210a95552ef8e81ecfa96ee0e759))
+
+
+### BREAKING CHANGES
+
+* **package:** 包身份重命名，外部消费者依赖声明须改引新包名。
+* **provider:** 不再依赖 com.gameframex.unity.asset。
+
 ## [1.0.2](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.googleplay/compare/1.0.1...1.0.2) (2026-07-30)
 
 
