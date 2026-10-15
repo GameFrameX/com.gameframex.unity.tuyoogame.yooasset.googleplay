@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/compare/2.0.0...2.0.1) (2026-10-15)
+
+
+### Bug Fixes
+
+* **runtime:** 移除 asmdef 中抖音 SDK versionDefines 残留 ([6d75530](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/commit/6d75530f375c24955adc846cd100cc88592b9ece))
+
 ## [Unreleased]
 
 ### Bug Fixes
