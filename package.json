@@ -2,7 +2,7 @@
   "name": "com.gameframex.unity.tuyoogame.yooasset.googleplay",
   "displayName": "Game Frame X YooAsset GooglePlay",
   "category": "Game Frame X",
-  "description": "Game Frame X YooAsset GooglePlay Component",
+  "description": "GameFrameX YooAsset GooglePlay — Google Play mini-game FileSystem adapter for Unity WebGL, integrating the Google Play mini-game SDK AssetBundle download and cache workflow into YooAsset. Provides a GooglePlayWebPlayModeFileSystemProvider and GooglePlayFileSystem implementation with a dedicated asset bundle load operation, compiled under UNITY_WEBGL with the GOOGLEPLAYMINIGAME define and depending on YooAsset, StarkWebGL, and GooglePlayWebGL. Docs: https://gameframex.doc.alianblank.com\n\nGameFrameX YooAsset GooglePlay — Google Play 小游戏 FileSystem 适配功能包。提供 GooglePlayWebPlayModeFileSystemProvider 与 GooglePlayFileSystem 实现及专属资源包加载操作，在 UNITY_WEBGL 下通过 GOOGLEPLAYMINIGAME 宏编译，依赖 YooAsset、StarkWebGL 与 GooglePlayWebGL。文档：https://gameframex.doc.alianblank.com",
   "version": "1.1.0",
   "unity": "2019.4",
   "keywords": [
