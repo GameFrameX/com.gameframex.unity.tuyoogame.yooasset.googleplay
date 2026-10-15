@@ -1,3 +1,9 @@
+## [Unreleased]
+
+### Bug Fixes
+
+* **runtime:** 移除 `YooAsset.GooglePlay.asmdef` 中两条 `com.bytedance.starksdk` versionDefines 残留（`DOUYIN_MINI_GAME` / `DOUYINMINIGAME`，疑似自抖音包复制遗留）：本包源码无任何消费点，GooglePlay 绑定不应依赖抖音 SDK 包
+
 # [2.0.0](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/compare/1.0.2...2.0.0) (2026-10-15)
 
 
