@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/compare/2.0.1...2.0.2) (2026-11-10)
+
+
+### Bug Fixes
+
+* **tuyoogame.yooasset.googleplay:** 添加完整 link.xml 防代码裁剪保护 ([d1f977b](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/commit/d1f977bc5617ee2eead697d070deb6f02e987252))
+
 ## [2.0.1](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.googleplay/compare/2.0.0...2.0.1) (2026-10-15)
 
 
